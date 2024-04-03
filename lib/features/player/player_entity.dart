@@ -1,4 +1,5 @@
 import 'package:heroes_and_dragons/features/player/player_consts.dart';
+import 'package:heroes_and_dragons/spells/spells_const.dart';
 
 final playerEntity = <String, dynamic>{};
 
@@ -17,7 +18,7 @@ final _playerPaladin = <String, dynamic>{
   protection: 5.0,
   lives: 100.0,
   mana: 50.0,
-  spells: <String>{}
+  spells: <String>{skyflare, tendrilex, stormix}
 };
 
 final _playerMagic = <String, dynamic>{
@@ -27,7 +28,7 @@ final _playerMagic = <String, dynamic>{
   protection: 0.0,
   lives: 100.0,
   mana: 100.0,
-  spells: <String>{}
+  spells: <String>{earthlynx, aquasphere, sunweave, typhunex, whirlora}
 };
 
 void initPlayer({
