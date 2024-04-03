@@ -1,4 +1,4 @@
-import 'package:heroes_and_dragons/player/player_consts.dart';
+import 'package:heroes_and_dragons/features/player/player_consts.dart';
 
 final playerEntity = <String, dynamic>{};
 
